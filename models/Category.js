@@ -9,7 +9,7 @@ class Category extends Model {}
 
 Category.init({
   // define columns
-
+  // TODO: NOTES FROM ACCEPTANCE CRITERIA
   //id
   // Integer.
   // Doesn't allow null values.

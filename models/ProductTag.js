@@ -7,8 +7,8 @@ class ProductTag extends Model {}
 ProductTag.init(
   {
     // define columns
-
-    /*
+    // TODO: NOTES FROM ACCEPTANCE CRITERIA
+    /* 
     id
     Integer.
     Doesn't allow null values.
@@ -24,6 +24,26 @@ ProductTag.init(
     References the Tag model's id.
 
     */
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    product_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'product',
+        key: 'id'
+      }
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
+        key: 'id'
+      }
+    }
   },
   {
     sequelize,
