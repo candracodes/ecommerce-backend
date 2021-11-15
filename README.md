@@ -16,11 +16,11 @@ This application creates the back end for an e-commerce site by modifying starte
 
 ## URLs
 - [GitHub Repo URL](https://github.com/candracodes/ecommerce-backend)
-- [Walk Through Video](#)
+- [Walk Through Video](https://watch.screencastify.com/v/7SxtzgRgxpm9KgNw4la9)
 - [Full Acceptance Criteria](./assets/README.md)
 
 ## Usage
-- This application is invoked running `node server.js` into the command line
+- To start this application, the user must `SOURCE` the db/schema.sql, then run `npm run seed`, and finally, `node server.js` into the command line
 
 ## User-Story
 
@@ -50,8 +50,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 * This application should resemble the following screenshots and video example:
 
-![Screenshot 1](./assets/12-sql-homework-demo-01.png)
-[![A video thumbnail shows the command-line as well as queries being ran in Insomnia)](#)
+[![A video thumbnail shows the command-line as well as queries being ran in Insomnia](./assets/screenshot.png)](https://watch.screencastify.com/v/7SxtzgRgxpm9KgNw4la9)
 
 ## Frameworks
 
